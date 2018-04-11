@@ -9,6 +9,11 @@ namespace PrimeiroGit
             // Declaração das variáveis para guardar os valores
             // que o usuário entrará
             double valor1,valor2,resultado;
+            Console.WriteLine("Digite um valor:");
+            valor1 = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("digite outro valor:");
+            valor2 = double.Parse(Console.ReadLine());
             
 
         }
